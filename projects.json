@@ -166,7 +166,10 @@
       "category": "science",
       "url": "https://lotto-ultimate-v2.onrender.com/",
       "desc": "AI 기반 로또 번호 분석",
-      "tags": [],
+      "tags": [
+        "Flask",
+        "Render"
+      ],
       "status": "live"
     },
     {
