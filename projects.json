@@ -77,9 +77,9 @@
     },
     {
       "id": "p005",
-      "name": "학생 성적 대시보드",
+      "name": "2026 3학년 가내신 성적 대시보드",
       "category": "data",
-      "url": "#",
+      "url": "https://kkbhong71.github.io/Student-Academic-Status/%EC%98%A4%EC%84%B1%EC%A4%91%ED%95%99%EA%B5%90_3%ED%95%99%EB%85%84_%EA%B0%80%EB%82%B4%EC%8B%A0_%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.html",
       "desc": "Premium Slate 테마. 학생 상담용 성적 분석 및 시각화 도구",
       "tags": [
         "GitHub Pages",
