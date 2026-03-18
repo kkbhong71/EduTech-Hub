@@ -24,6 +24,11 @@
       "id": "science",
       "icon": "🎯",
       "label": "데이터 사이언스"
+    },
+    {
+      "id": "cat_mmvyhma3",
+      "icon": "💡",
+      "label": "유용한 앱"
     }
   ],
   "projects": [
