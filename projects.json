@@ -218,6 +218,18 @@
       "desc": "Han's Lotto Lab v2.0 Coverage Optimized — AI 기반 로또 번호 예측 시스템",
       "tags": [],
       "status": "live"
+    },
+    {
+      "id": "p297149",
+      "name": "Han's Custom Made 2",
+      "category": "school",
+      "url": "https://hans-custom-made2.onrender.com",
+      "desc": "최근회차 당첨번호, 30회차, 50회차, 100회, 200회차 중의 당첨번호 중, 번호 예측",
+      "tags": [
+        "Flask",
+        "Render"
+      ],
+      "status": "live"
     }
   ]
 }
