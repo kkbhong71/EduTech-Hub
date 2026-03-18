@@ -179,6 +179,15 @@
         "GitHub Pages"
       ],
       "status": "live"
+    },
+    {
+      "id": "p966451",
+      "name": "6. 식사 메뉴 추천 프로그램- 오늘 뭐 먹지?",
+      "category": "edu",
+      "url": "https://claude.ai/public/artifacts/f2be1555-c5bb-432b-8a29-1d4225d7a009",
+      "desc": "",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
