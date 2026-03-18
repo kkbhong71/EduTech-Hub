@@ -209,6 +209,15 @@
       "desc": "8가지 독자적인 AI 알고리즘이 과거 데이터를 깊이 분석하여 최적의 로또 예상번호 추천",
       "tags": [],
       "status": "live"
+    },
+    {
+      "id": "p922873",
+      "name": "Hans-Custom-made v2.0",
+      "category": "science",
+      "url": "https://hans-custom-madev2-0.onrender.com",
+      "desc": "Han's Lotto Lab v2.0 Coverage Optimized — AI 기반 로또 번호 예측 시스템",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
