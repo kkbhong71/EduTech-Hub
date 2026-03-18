@@ -141,14 +141,11 @@
     },
     {
       "id": "p010",
-      "name": "LottoPro-AI v3.0",
+      "name": "LottoPro-AI v2.0",
       "category": "science",
-      "url": "#",
-      "desc": "8개 알고리즘 동적 로딩, Glassmorphism UI, 사용자 예측 저장",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
+      "url": "https://lottopro-ai-v2-0.onrender.com",
+      "desc": "10가지 최첨단 AI 알고리즘으로 예측하는 프리미엄 로또 번호",
+      "tags": [],
       "status": "live"
     },
     {
