@@ -207,7 +207,10 @@
       "category": "science",
       "url": "https://lottopro-ai-v3-0.onrender.com",
       "desc": "8가지 독자적인 AI 알고리즘이 과거 데이터를 깊이 분석하여 최적의 로또 예상번호 추천",
-      "tags": [],
+      "tags": [
+        "Flask",
+        "Render"
+      ],
       "status": "live"
     },
     {
