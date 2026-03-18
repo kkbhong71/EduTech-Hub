@@ -216,7 +216,10 @@
       "category": "science",
       "url": "https://hans-custom-madev2-0.onrender.com",
       "desc": "Han's Lotto Lab v2.0 Coverage Optimized — AI 기반 로또 번호 예측 시스템",
-      "tags": [],
+      "tags": [
+        "Flask",
+        "Render"
+      ],
       "status": "live"
     },
     {
