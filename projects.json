@@ -131,7 +131,7 @@
       "id": "p009",
       "name": "LottoPro-AI v1.0",
       "category": "science",
-      "url": "https://lottopro-ai-v2-0.onrender.com",
+      "url": "https://lottopro-ai.onrender.com",
       "desc": "실제 당첨 데이터를 분석하는 5가지 독자적 AI 모델이 최적의 로또 예상번호를 추천",
       "tags": [
         "Flask",
