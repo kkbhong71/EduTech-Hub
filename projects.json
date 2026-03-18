@@ -169,6 +169,15 @@
         "Colab"
       ],
       "status": "colab"
+    },
+    {
+      "id": "p018846",
+      "name": "오성중학교 급식 정보",
+      "category": "school",
+      "url": "https://kkbhong71.github.io/oseong_meals_ver1.1/",
+      "desc": "",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
