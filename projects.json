@@ -1,0 +1,27 @@
+{
+  "site": {
+    "title": "열정맨 에듀테크 허브",
+    "subtitle": "오성중학교 · 교육 행정 & 데이터 사이언스",
+    "footer": "© 2026 열정맨 · 오성중학교 에듀테크"
+  },
+  "categories": [
+    { "id": "school",  "icon": "🏫", "label": "학교 행정 시스템" },
+    { "id": "data",    "icon": "📊", "label": "학생 데이터 분석" },
+    { "id": "edu",     "icon": "📚", "label": "교육 자료" },
+    { "id": "science", "icon": "🎯", "label": "데이터 사이언스" }
+  ],
+  "projects": [
+    { "id": "p001", "name": "동료장학 관리 시스템", "category": "school", "url": "https://peer-observation.onrender.com", "desc": "교사 간 수업 참관 기록 및 관리. 교과별 자동 정렬, PostgreSQL 기반", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p002", "name": "장학금 관리 시스템", "category": "school", "url": "#", "desc": "7개 모듈 탑재, 18조 장학금 규정 뷰어 포함. 신청·심사·지급 관리", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p003", "name": "동아리 편성 시스템", "category": "school", "url": "#", "desc": "학생 동아리 배정 및 관리. 희망 조사 기반 자동 편성 기능", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p004", "name": "방과후학교 등록 시스템", "category": "school", "url": "#", "desc": "다요일 스케줄링, 시간 충돌 검증. 학생 수강 신청 관리", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p005", "name": "학생 성적 대시보드", "category": "data", "url": "#", "desc": "Premium Slate 테마. 학생 상담용 성적 분석 및 시각화 도구", "tags": ["GitHub Pages", "HTML/JS"], "status": "live" },
+    { "id": "p006", "name": "기초학력 향상 계획 대시보드", "category": "data", "url": "#", "desc": "기초학력 향상 계획 현황 관리 및 모니터링 대시보드", "tags": ["GitHub Pages", "HTML/JS"], "status": "live" },
+    { "id": "p007", "name": "Flask 웹앱 배포 가이드", "category": "edu", "url": "#", "desc": "Flask + Render.com 배포 전 과정 한글 가이드. 초보자용 단계별 설명", "tags": ["GitHub Pages", "가이드"], "status": "live" },
+    { "id": "p008", "name": "앱 개발 절차 설명서", "category": "edu", "url": "#", "desc": "웹앱 기획부터 배포까지 전체 개발 절차 한글 설명서", "tags": ["GitHub Pages", "가이드"], "status": "live" },
+    { "id": "p009", "name": "LottoPro-AI v2.0", "category": "science", "url": "https://lottopro-ai-v2-0.onrender.com", "desc": "10개 AI 알고리즘 탑재, 성능 모니터링 및 백테스팅 기능", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p010", "name": "LottoPro-AI v3.0", "category": "science", "url": "#", "desc": "8개 알고리즘 동적 로딩, Glassmorphism UI, 사용자 예측 저장", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p011", "name": "Claude's EV Lotto System v2.0", "category": "science", "url": "#", "desc": "기대값(EV) 최적화 전략. 인기 조합 회피로 수익률 극대화", "tags": ["Flask", "Render"], "status": "live" },
+    { "id": "p012", "name": "LOTTO ORACLE v4.0", "category": "science", "url": "#", "desc": "Google Colab 기반. 자동 튜닝 백테스트, 앙상블 예측 파이프라인", "tags": ["Colab"], "status": "colab" }
+  ]
+}
