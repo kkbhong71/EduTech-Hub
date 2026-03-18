@@ -145,7 +145,10 @@
       "category": "science",
       "url": "https://lottopro-ai-v2-0.onrender.com",
       "desc": "10가지 최첨단 AI 알고리즘으로 예측하는 프리미엄 로또 번호",
-      "tags": [],
+      "tags": [
+        "Flask",
+        "Render"
+      ],
       "status": "live"
     },
     {
