@@ -165,6 +165,9 @@
         .cat-item__count{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--text-muted);}
         .cat-item__del{width:24px;height:24px;border-radius:var(--radius-xs);border:1px solid var(--border);background:var(--surface);cursor:pointer;font-size:0.65rem;transition:var(--transition);display:flex;align-items:center;justify-content:center;}
         .cat-item__del:hover{background:var(--rose-100);border-color:#fecdd3;color:var(--rose-500);}
+        .cat-item__edit{width:24px;height:24px;border-radius:var(--radius-xs);border:1px solid var(--border);background:var(--surface);cursor:pointer;font-size:0.65rem;transition:var(--transition);display:flex;align-items:center;justify-content:center;}
+        .cat-item__edit:hover{background:var(--emerald-50);border-color:var(--emerald-300);color:var(--emerald-700);}
+        .cat-item__actions{display:flex;gap:0.2rem;}
         .toast{position:fixed;top:1rem;right:1rem;z-index:400;padding:0.65rem 1.1rem;border-radius:10px;font-size:0.78rem;font-weight:500;color:#fff;transform:translateX(120%);transition:transform 0.3s ease;box-shadow:0 6px 20px rgba(0,0,0,0.15);}
         .toast.show{transform:translateX(0);}
         .toast--success{background:var(--emerald-700);}
@@ -234,6 +237,7 @@ let CAT_ICONS = {};
 let SITE_DATA = null;
 let GITHUB_SHA = null;
 let editingProjectId = null;
+let editingCategoryId = null;
 
 const FALLBACK_DATA = {
     site:{title:"열정맨 에듀테크 허브",subtitle:"오성중학교 · 교육 행정 & 데이터 사이언스",footer:"© 2026 열정맨 · 오성중학교 에듀테크"},
@@ -388,7 +392,7 @@ function renderAdminMain() {
     // Build category list for management
     const catListHTML = categories.map(c => {
         const cnt = projects.filter(p => p.category === c.id).length;
-        return '<div class="cat-item"><span class="cat-item__icon">' + c.icon + '</span><span class="cat-item__label">' + c.label + '</span><span class="cat-item__count">' + cnt + '개</span><button class="cat-item__del" data-catid="' + c.id + '" title="삭제">🗑️</button></div>';
+        return '<div class="cat-item"><span class="cat-item__icon">' + c.icon + '</span><span class="cat-item__label">' + c.label + '</span><span class="cat-item__count">' + cnt + '개</span><div class="cat-item__actions"><button class="cat-item__edit" data-catid="' + c.id + '" title="수정">✏️</button><button class="cat-item__del" data-catid="' + c.id + '" title="삭제">🗑️</button></div></div>';
     }).join('');
 
     document.getElementById('adminBody').innerHTML =
@@ -396,7 +400,7 @@ function renderAdminMain() {
         '<div class="admin-section"><div class="admin-section__title">🔑 GitHub 토큰</div><div class="token-bar"><input type="password" id="tokenInput" placeholder="ghp_xxxx..." value="' + (token || '') + '"><button id="tokenSaveBtn">' + (hasToken ? '변경' : '저장') + '</button></div><div class="token-status ' + (hasToken ? 'ok' : 'none') + '" id="tokenStatus">' + (hasToken ? '✅ 토큰 설정 완료' : '⚠️ GitHub Token이 필요합니다') + '</div><p class="help-text">GitHub → Settings → Developer settings → Personal access tokens (classic) → <strong>repo</strong> 권한</p></div>' +
 
         // Category management section (NEW!)
-        '<div class="admin-section"><div class="admin-section__title">📂 카테고리 관리 (' + categories.length + '개)</div><div id="catList">' + catListHTML + '</div><div class="cat-add-bar"><input type="text" class="cat-icon-input" id="newCatIcon" placeholder="🆕" maxlength="2"><input type="text" id="newCatLabel" placeholder="새 카테고리 이름"><button id="addCatBtn">추가</button></div><p class="help-text">아이콘은 이모지를 사용하세요 (예: 🔧 💡 🎮 📐 🌐)</p></div>' +
+        '<div class="admin-section"><div class="admin-section__title">📂 카테고리 관리 (' + categories.length + '개)</div><div id="catList">' + catListHTML + '</div><div class="admin-section__title" id="catFormTitle" style="margin-top:0.7rem;font-size:0.72rem;">➕ 새 카테고리 추가</div><div class="cat-add-bar"><input type="text" class="cat-icon-input" id="newCatIcon" placeholder="🆕" maxlength="2"><input type="text" id="newCatLabel" placeholder="카테고리 이름"><button id="addCatBtn">추가</button><button id="cancelCatBtn" class="btn btn--secondary" style="display:none;padding:0.4rem 0.6rem;font-size:0.72rem;">취소</button></div><p class="help-text">아이콘은 이모지를 사용하세요 (예: 🔧 💡 🎮 📐 🌐)</p></div>' +
 
         // Project form section
         '<div class="admin-section"><div class="admin-section__title" id="formTitle">➕ 새 프로젝트 추가</div><div class="form-grid"><div class="form-field"><label>프로젝트 이름 *</label><input type="text" id="fName" placeholder="예: 출결 관리 시스템"></div><div class="form-field"><label>카테고리 *</label><select id="fCategory">' + catOptions + '</select></div><div class="form-field form-grid--full"><label>URL *</label><input type="text" id="fUrl" placeholder="https://..."></div><div class="form-field form-grid--full"><label>설명</label><textarea id="fDesc" placeholder="프로젝트에 대한 간단한 설명"></textarea></div><div class="form-field"><label>태그 (쉼표 구분)</label><input type="text" id="fTags" placeholder="Flask, Render"></div><div class="form-field"><label>상태</label><select id="fStatus"><option value="live">🟢 운영 중</option><option value="dev">🟡 개발 중</option><option value="colab">🔵 Colab</option></select></div><div class="form-actions"><button class="btn btn--primary" id="formSaveBtn">💾 저장 (GitHub 반영)</button><button class="btn btn--secondary" id="formCancelBtn" style="display:none">취소</button></div></div></div>' +
@@ -412,11 +416,14 @@ function renderAdminMain() {
     document.getElementById('formSaveBtn').addEventListener('click', saveProject);
     document.getElementById('formCancelBtn').addEventListener('click', resetForm);
     document.getElementById('addCatBtn').addEventListener('click', addCategory);
+    document.getElementById('cancelCatBtn').addEventListener('click', resetCategoryForm);
     document.getElementById('adminLogout').addEventListener('click', () => { sessionStorage.removeItem(CONFIG.AUTH_KEY); document.getElementById('adminOverlay').classList.remove('open'); });
 
-    // Category delete events
+    // Category edit/delete events
     document.getElementById('catList').addEventListener('click', e => {
+        const editBtn = e.target.closest('.cat-item__edit');
         const delBtn = e.target.closest('.cat-item__del');
+        if (editBtn) startEditCategory(editBtn.dataset.catid);
         if (delBtn) deleteCategory(delBtn.dataset.catid);
     });
 
@@ -438,27 +445,63 @@ function adminProjectHTML(p) {
 /* ═══════════════════════════════════════════
    CATEGORY CRUD (NEW!)
    ═══════════════════════════════════════════ */
+function startEditCategory(catId) {
+    const cat = SITE_DATA.categories.find(c => c.id === catId);
+    if (!cat) return;
+    editingCategoryId = catId;
+    document.getElementById('catFormTitle').textContent = '✏️ 카테고리 수정: ' + cat.label;
+    document.getElementById('newCatIcon').value = cat.icon;
+    document.getElementById('newCatLabel').value = cat.label;
+    document.getElementById('addCatBtn').textContent = '수정';
+    document.getElementById('cancelCatBtn').style.display = '';
+    document.getElementById('catFormTitle').scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetCategoryForm() {
+    editingCategoryId = null;
+    document.getElementById('catFormTitle').textContent = '➕ 새 카테고리 추가';
+    document.getElementById('newCatIcon').value = '';
+    document.getElementById('newCatLabel').value = '';
+    document.getElementById('addCatBtn').textContent = '추가';
+    document.getElementById('cancelCatBtn').style.display = 'none';
+}
+
 async function addCategory() {
     const icon = document.getElementById('newCatIcon').value.trim() || '📁';
     const label = document.getElementById('newCatLabel').value.trim();
     if (!label) { showToast('카테고리 이름을 입력해주세요', 'error'); return; }
 
-    // Generate id from label (simple slug)
-    const id = 'cat_' + Date.now().toString(36);
+    if (editingCategoryId) {
+        // 수정 모드
+        const cat = SITE_DATA.categories.find(c => c.id === editingCategoryId);
+        if (!cat) return;
+        cat.icon = icon;
+        cat.label = label;
+        CAT_ICONS[editingCategoryId] = icon;
 
-    // Check duplicate
-    if (SITE_DATA.categories.find(c => c.label === label)) {
-        showToast('이미 같은 이름의 카테고리가 있습니다', 'error'); return;
-    }
+        // 해당 카테고리 프로젝트들의 참조는 id 기반이므로 자동 유지
+        const saved = await pushToGitHub(SITE_DATA);
+        if (saved) {
+            showToast('"' + icon + ' ' + label + '" 카테고리가 수정되었습니다', 'success');
+            resetCategoryForm();
+            renderSite(SITE_DATA);
+            renderAdminMain();
+        }
+    } else {
+        // 추가 모드
+        const id = 'cat_' + Date.now().toString(36);
+        if (SITE_DATA.categories.find(c => c.label === label)) {
+            showToast('이미 같은 이름의 카테고리가 있습니다', 'error'); return;
+        }
+        SITE_DATA.categories.push({ id, icon, label });
+        CAT_ICONS[id] = icon;
 
-    SITE_DATA.categories.push({ id, icon, label });
-    CAT_ICONS[id] = icon;
-
-    const saved = await pushToGitHub(SITE_DATA);
-    if (saved) {
-        showToast('"' + icon + ' ' + label + '" 카테고리가 추가되었습니다', 'success');
-        renderSite(SITE_DATA);
-        renderAdminMain();
+        const saved = await pushToGitHub(SITE_DATA);
+        if (saved) {
+            showToast('"' + icon + ' ' + label + '" 카테고리가 추가되었습니다', 'success');
+            renderSite(SITE_DATA);
+            renderAdminMain();
+        }
     }
 }
 
