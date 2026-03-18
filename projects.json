@@ -162,14 +162,12 @@
     },
     {
       "id": "p012",
-      "name": "LOTTO ORACLE v4.0",
+      "name": "Lotto Ultimate v2.0 - AI Analytics System",
       "category": "science",
-      "url": "#",
-      "desc": "Google Colab 기반. 자동 튜닝 백테스트, 앙상블 예측 파이프라인",
-      "tags": [
-        "Colab"
-      ],
-      "status": "colab"
+      "url": "https://lotto-ultimate-v2.onrender.com/",
+      "desc": "AI 기반 로또 번호 분석",
+      "tags": [],
+      "status": "live"
     },
     {
       "id": "p018846",
