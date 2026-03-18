@@ -129,10 +129,10 @@
     },
     {
       "id": "p009",
-      "name": "LottoPro-AI v2.0",
+      "name": "LottoPro-AI v1.0",
       "category": "science",
       "url": "https://lottopro-ai-v2-0.onrender.com",
-      "desc": "10개 AI 알고리즘 탑재, 성능 모니터링 및 백테스팅 기능",
+      "desc": "실제 당첨 데이터를 분석하는 5가지 독자적 AI 모델이 최적의 로또 예상번호를 추천",
       "tags": [
         "Flask",
         "Render"
