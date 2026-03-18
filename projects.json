@@ -55,7 +55,7 @@
       "id": "p003",
       "name": "동아리 편성 시스템",
       "category": "school",
-      "url": "#",
+      "url": "https://oseong-club.onrender.com",
       "desc": "학생 동아리 배정 및 관리. 희망 조사 기반 자동 편성 기능",
       "tags": [
         "Flask",
