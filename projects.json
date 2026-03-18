@@ -81,7 +81,9 @@
       "category": "school",
       "url": "https://kkbhong71.github.io/Todolist/",
       "desc": "일과 생활을 관리하기 위한 To Do List",
-      "tags": [],
+      "tags": [
+        "GitHub Pages"
+      ],
       "status": "live"
     },
     {
