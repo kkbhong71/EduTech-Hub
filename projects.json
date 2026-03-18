@@ -145,10 +145,7 @@
       "category": "science",
       "url": "https://lottopro-ai-v2-0.onrender.com",
       "desc": "10가지 최첨단 AI 알고리즘으로 예측하는 프리미엄 로또 번호",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
+      "tags": [],
       "status": "live"
     },
     {
@@ -169,10 +166,7 @@
       "category": "science",
       "url": "https://lotto-ultimate-v2.onrender.com/",
       "desc": "AI 기반 로또 번호 분석",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
+      "tags": [],
       "status": "live"
     },
     {
@@ -213,10 +207,7 @@
       "category": "science",
       "url": "https://lottopro-ai-v3-0.onrender.com",
       "desc": "8가지 독자적인 AI 알고리즘이 과거 데이터를 깊이 분석하여 최적의 로또 예상번호 추천",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
+      "tags": [],
       "status": "live"
     },
     {
@@ -225,10 +216,7 @@
       "category": "science",
       "url": "https://hans-custom-madev2-0.onrender.com",
       "desc": "Han's Lotto Lab v2.0 Coverage Optimized — AI 기반 로또 번호 예측 시스템",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
+      "tags": [],
       "status": "live"
     },
     {
