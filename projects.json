@@ -43,7 +43,7 @@
       "id": "p002",
       "name": "장학금 관리 시스템",
       "category": "school",
-      "url": "#",
+      "url": "https://scholarship-system-7eki.onrender.com",
       "desc": "7개 모듈 탑재, 18조 장학금 규정 뷰어 포함. 신청·심사·지급 관리",
       "tags": [
         "Flask",
