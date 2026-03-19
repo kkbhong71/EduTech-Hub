@@ -40,7 +40,9 @@
       "desc": "교사 간 수업 참관 기록 및 관리. 교과별 자동 정렬, PostgreSQL 기반",
       "tags": [
         "Flask",
-        "Render"
+        "Render",
+        "PostgreSQL",
+        "GitHub 연동 자동 재배포"
       ],
       "status": "live"
     },
