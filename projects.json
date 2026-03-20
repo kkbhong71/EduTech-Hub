@@ -256,6 +256,17 @@
         "GitHub Pages"
       ],
       "status": "live"
+    },
+    {
+      "id": "p843632",
+      "name": "학급 1인 1역할 관리 시스템",
+      "category": "school",
+      "url": "https://m.site.naver.com/23t1D",
+      "desc": "1인 1역할 관리 시스템 v2.0은 학급 내 학생들이 각자의 역할을 맡아 책임감 있게 수행하고, 그 과정을 기록·관리·평가하는 교육용 웹앱",
+      "tags": [
+        "Google Apps Script"
+      ],
+      "status": "live"
     }
   ]
 }
