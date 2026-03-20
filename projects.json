@@ -248,7 +248,7 @@
     {
       "id": "p969978",
       "name": "가정통신문 배달부",
-      "category": "school",
+      "category": "edu",
       "url": "https://kkbhong71.github.io/home-letter-delivery/",
       "desc": "Google Apps Script 기반 가정통신문 발송·확인·서명 시스템",
       "tags": [
