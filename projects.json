@@ -204,12 +204,11 @@
     },
     {
       "id": "p356565",
-      "name": "오성중학교 3학년 가내신 성적 대시보드",
-      "category": "data",
-      "url": "https://kkbhong71.github.io/Student-Academic-Status/",
-      "desc": "오성중학교 내신 성적 분석 시스템\n진학지도용 가내신 데이터 | 담임 교사 전용",
+      "name": "map-quest-game",
+      "category": "cat_mn53qvw9",
+      "url": "https://kkbhong71.github.io/map-quest-game/",
+      "desc": "초등학교 4학년 1학기 사회 1단원 \"다양한 정보가 담긴 지도\" 복습 게임",
       "tags": [
-        "GitHub Pages",
         "HTML"
       ],
       "status": "live"
