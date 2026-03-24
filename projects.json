@@ -277,7 +277,11 @@
       "category": "science",
       "url": "https://buly.kr/3CPie8x",
       "desc": "",
-      "tags": [],
+      "tags": [
+        "Google Apps Script",
+        "Code.gs",
+        "html"
+      ],
       "status": "live"
     }
   ]
