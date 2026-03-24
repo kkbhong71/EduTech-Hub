@@ -102,11 +102,11 @@
       "id": "p006",
       "name": "기초학력 향상 계획 대시보드",
       "category": "data",
-      "url": "#",
-      "desc": "기초학력 향상 계획 현황 관리 및 모니터링 대시보드",
+      "url": "https://kkbhong71.github.io/Basic-academic-skills/",
+      "desc": "2025 기초기본학력보장 프로그램 운영 만족도 조사 분석 및 2026 계획 수립 대시보드",
       "tags": [
         "GitHub Pages",
-        "HTML/JS"
+        "HTML"
       ],
       "status": "live"
     },
