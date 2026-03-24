@@ -299,6 +299,17 @@
         "HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p582268",
+      "name": "Student-Academic-Status",
+      "category": "data",
+      "url": "https://kkbhong71.github.io/Student-Academic-Status/",
+      "desc": "오성중학교_3학년_가내신_대시보드",
+      "tags": [
+        "HTML"
+      ],
+      "status": "live"
     }
   ]
 }
