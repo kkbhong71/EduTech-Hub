@@ -283,6 +283,18 @@
         "html"
       ],
       "status": "live"
+    },
+    {
+      "id": "p851765",
+      "name": "한글 타자 게임",
+      "category": "cat_mmvyhma3",
+      "url": "https://kkbhong71.github.io/typing-game/",
+      "desc": "학생들이 URL만으로 바로 접속해서 사용할 수 있도록 GitHub Pages 배포용 HTML 파일로 제작",
+      "tags": [
+        "GitHub Pages",
+        "HTML"
+      ],
+      "status": "live"
     }
   ]
 }
