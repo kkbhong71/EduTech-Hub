@@ -312,6 +312,17 @@
         "HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p341768",
+      "name": "2026 오성중학교 기초학력 진단평가 분석",
+      "category": "data",
+      "url": "https://kkbhong71.github.io/abaaar/",
+      "desc": "오성중학교 기초학력 진단평가\n종합 분석 대시보드 v2.0 · 2026.03.24 시행 · 기초학력향상계획 포함",
+      "tags": [
+        "HTML"
+      ],
+      "status": "live"
     }
   ]
 }
