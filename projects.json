@@ -324,6 +324,18 @@
         "HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p409004",
+      "name": "English Quest: 모험으로 배우는 영어",
+      "category": "cat_mn53qvw9",
+      "url": "https://kkbhong71.github.io/english-quest/",
+      "desc": "영어 기초를 익히기 위한 학생용 게임",
+      "tags": [
+        "GitHub Pages",
+        "HTML"
+      ],
+      "status": "live"
     }
   ]
 }
