@@ -351,12 +351,13 @@
     },
     {
       "id": "p821476",
-      "name": "오성한자",
+      "name": "오성한자톡",
       "category": "cat_mn53qvw9",
       "url": "https://buly.kr/7QNvW8v",
-      "desc": "중등 기초 한자 900자 익히",
+      "desc": "중등 기초 한자 900자 익히기",
       "tags": [
-        "Google Apps Script"
+        "Google Apps Script",
+        "Code.gs html"
       ],
       "status": "live"
     }
