@@ -348,6 +348,17 @@
         "HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p821476",
+      "name": "오성한자",
+      "category": "cat_mn53qvw9",
+      "url": "https://buly.kr/7QNvW8v",
+      "desc": "중등 기초 한자 900자 익히",
+      "tags": [
+        "Google Apps Script"
+      ],
+      "status": "live"
     }
   ]
 }
