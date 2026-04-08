@@ -385,6 +385,15 @@
         "HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p086075",
+      "name": "Pace Maker STUDY DASHBOARD",
+      "category": "cat_mn53qvw9",
+      "url": "https://kkbhong71.github.io/pace-maker/",
+      "desc": "Pace Maker (페이스메이커): 학생이 지치지 않고 완주할 수 있도록 곁에서 함께 뛰어주는 부모님의 마음을 담은 학습 플래너 웹앱",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
