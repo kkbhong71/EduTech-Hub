@@ -403,7 +403,9 @@
       "category": "edu",
       "url": "https://kkbhong71.github.io/OseongHistoryTalk_guide/",
       "desc": "중학교 역사 교육용 AI 웹앱을 처음부터 끝까지, 코딩 경험이 없어도 따라 만들 수 있는 완전 가이드",
-      "tags": [],
+      "tags": [
+        "GitHub Pages 가이드"
+      ],
       "status": "live"
     }
   ]
