@@ -420,6 +420,15 @@
         "Google Sheets"
       ],
       "status": "live"
+    },
+    {
+      "id": "p409018",
+      "name": "English Quest 웹앱 제작 가이드",
+      "category": "edu",
+      "url": "https://kkbhong71.github.io/english-quest_guide/",
+      "desc": "AI와 대화하며 교육용 영어 학습 게임을 처음부터 배포까지 — 코딩 경험 없이도 완성하는 완전 초보자용 가이드",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
