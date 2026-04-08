@@ -256,7 +256,10 @@
       "category": "edu",
       "url": "https://kkbhong71.github.io/home-letter-delivery/",
       "desc": "가정통신문 배달부 제작 가이드 및 사용 설명서",
-      "tags": [],
+      "tags": [
+        "GitHub Pages",
+        "가이드"
+      ],
       "status": "live"
     },
     {
