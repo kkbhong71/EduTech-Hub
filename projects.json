@@ -396,6 +396,15 @@
         "Google Apps Script Code.gs GitHub Pages HTML"
       ],
       "status": "live"
+    },
+    {
+      "id": "p976720",
+      "name": "오성역사톡!! 앱 제작 가이드",
+      "category": "edu",
+      "url": "https://kkbhong71.github.io/OseongHistoryTalk_guide/",
+      "desc": "중학교 역사 교육용 AI 웹앱을 처음부터 끝까지, 코딩 경험이 없어도 따라 만들 수 있는 완전 가이드",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
