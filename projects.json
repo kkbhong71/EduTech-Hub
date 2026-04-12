@@ -432,6 +432,15 @@
         "가이드"
       ],
       "status": "live"
+    },
+    {
+      "id": "p250028",
+      "name": "happymind",
+      "category": "school",
+      "url": "https://kkbhong71.github.io/happymind/",
+      "desc": "행복명상 웹앱 \"진정한 행복은 내면의 고요에서 시작됩니다.\"",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
