@@ -451,7 +451,10 @@
       "category": "data",
       "url": "https://kkbhong71.github.io/oseong-diagnosis-2026/",
       "desc": "2026 기초학력 진단평가 결과 및 3R's 평가 결과 대시보드",
-      "tags": [],
+      "tags": [
+        "GitHub Pages",
+        "HTML"
+      ],
       "status": "live"
     }
   ]
