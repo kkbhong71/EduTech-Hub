@@ -464,11 +464,14 @@
     },
     {
       "id": "p518166",
-      "name": "<OVH/>오성 바이브 허브",
+      "name": "오성 바이브 허브",
       "category": "cat_mo4gs9xy",
       "url": "https://kkbhong71.github.io/-OVH-/",
       "desc": "Oseong Vibe Coding EduHub, \n★ ★ ★ ★ ★ 다섯 별, 하나의 코드",
-      "tags": [],
+      "tags": [
+        "GitHub Pages",
+        "HTML"
+      ],
       "status": "live"
     }
   ]
