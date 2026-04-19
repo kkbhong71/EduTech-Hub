@@ -440,13 +440,13 @@
     },
     {
       "id": "p250028",
-      "name": "happymind",
-      "category": "cat_mmvyhma3",
-      "url": "https://kkbhong71.github.io/happymind/",
-      "desc": "행복명상 웹앱 \"진정한 행복은 내면의 고요에서 시작됩니다.\"",
+      "name": "CodePen 완벽 가이드",
+      "category": "edu",
+      "url": "https://codepen.io/vjnqnjex-the-vuer/full/NPRmWVM",
+      "desc": "바이브 코딩의 새로운 배포 선택지, CodePen을 초보자도 쉽게 시작할 수 있도록 안내합니다. 작성부터 공유, GitHub 연동까지 한눈에!",
       "tags": [
-        "GitHub Pages",
-        "HTML"
+        "Claude",
+        "CodePen"
       ],
       "status": "live"
     },
