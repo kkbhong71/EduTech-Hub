@@ -475,16 +475,12 @@
       "status": "live"
     },
     {
-      "id": "p751751",
+      "id": "p864928",
       "name": "Happymind 명상 웹앱",
       "category": "cat_mmvyhma3",
       "url": "https://kkbhong71.github.io/happymind/",
       "desc": "6종 자연 사운드 엔진 (숲/파도/빗소리/밤/모닥불/싱잉볼)\n사운드 믹싱 (여러 사운드 동시 재생 + 개별 볼륨)\n호흡 가이드 모드 (4-7-8 / 박스 호흡)",
-      "tags": [
-        "Gemini Canvas",
-        "GitHud Pages",
-        "HTML"
-      ],
+      "tags": [],
       "status": "live"
     }
   ]
