@@ -487,6 +487,15 @@
       "desc": "6종 자연 사운드 엔진 (숲/파도/빗소리/밤/모닥불/싱잉볼)\n사운드 믹싱 (여러 사운드 동시 재생 + 개별 볼륨)\n호흡 가이드 모드 (4-7-8 / 박스 호흡)",
       "tags": [],
       "status": "live"
+    },
+    {
+      "id": "p699961",
+      "name": "명상 웹앱 — 바이브 코딩 개발 프롬프트",
+      "category": "cat_mo6i0nt7",
+      "url": "https://codepen.io/vjnqnjex-the-vuer/full/gbwygvL",
+      "desc": "명상 웹앱 — 바이브 코딩 개발 Master 프롬프트",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
