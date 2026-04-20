@@ -494,7 +494,11 @@
       "category": "cat_mo6i0nt7",
       "url": "https://codepen.io/vjnqnjex-the-vuer/full/gbwygvL",
       "desc": "명상 웹앱 — 바이브 코딩 개발 Master 프롬프트",
-      "tags": [],
+      "tags": [
+        "도구: Claude AI",
+        "기술: HTML + CSS + JS + Web Audio API",
+        "배포: codepen"
+      ],
       "status": "live"
     }
   ]
