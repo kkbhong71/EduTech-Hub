@@ -157,18 +157,6 @@
       "status": "live"
     },
     {
-      "id": "p010",
-      "name": "LottoPro-AI v2.0",
-      "category": "science",
-      "url": "https://lottopro-ai-v2-0.onrender.com",
-      "desc": "10가지 최첨단 AI 알고리즘으로 예측하는 프리미엄 로또 번호",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
-      "status": "live"
-    },
-    {
       "id": "p011",
       "name": "Claude's EV Lotto System v2.0",
       "category": "science",
