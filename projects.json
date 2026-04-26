@@ -157,18 +157,6 @@
       "status": "live"
     },
     {
-      "id": "p011",
-      "name": "Claude's EV Lotto System v2.0",
-      "category": "science",
-      "url": "https://claude-ev-lotto.onrender.com",
-      "desc": "기대값(EV) 최적화 전략. 인기 조합 회피로 수익률 극대화",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
-      "status": "live"
-    },
-    {
       "id": "p012",
       "name": "Lotto Ultimate v2.0 - AI Analytics System",
       "category": "science",
