@@ -157,18 +157,6 @@
       "status": "live"
     },
     {
-      "id": "p012",
-      "name": "Lotto Ultimate v2.0 - AI Analytics System",
-      "category": "science",
-      "url": "https://lotto-ultimate-v2.onrender.com/",
-      "desc": "AI 기반 로또 번호 분석",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
-      "status": "live"
-    },
-    {
       "id": "p018846",
       "name": "오성중학교 급식 정보",
       "category": "school",
