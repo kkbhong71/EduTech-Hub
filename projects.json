@@ -189,18 +189,6 @@
       "status": "live"
     },
     {
-      "id": "p201417",
-      "name": "LottoPro-AI v3.0",
-      "category": "science",
-      "url": "https://lottopro-ai-v3-0.onrender.com",
-      "desc": "8가지 독자적인 AI 알고리즘이 과거 데이터를 깊이 분석하여 최적의 로또 예상번호 추천",
-      "tags": [
-        "Flask",
-        "Render"
-      ],
-      "status": "live"
-    },
-    {
       "id": "p922873",
       "name": "Hans-Custom-made v2.0",
       "category": "science",
