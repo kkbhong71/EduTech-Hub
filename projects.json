@@ -415,6 +415,15 @@
         "배포: codepen"
       ],
       "status": "live"
+    },
+    {
+      "id": "p797428",
+      "name": "우리 학교 급식 대시보드",
+      "category": "science",
+      "url": "https://kkbhong71.github.io/School-Meal-Dashboard/",
+      "desc": "공공데이터 포털의 '나이스(NEIS) 교육정보 개방 포털' API를 활용하는 프로젝트\n데이터: 학교별 급식 메뉴, 칼로리, 영양소 정보",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
