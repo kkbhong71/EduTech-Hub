@@ -434,7 +434,10 @@
       "category": "science",
       "url": "https://kkbhong71.github.io/Dust-Navi/",
       "desc": "에어코리아 실시간 API 기반 | 데이터사이언스 체험 미세먼지 앱",
-      "tags": [],
+      "tags": [
+        "Claude",
+        "GitHub Pages"
+      ],
       "status": "live"
     }
   ]
