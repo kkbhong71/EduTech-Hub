@@ -467,6 +467,19 @@
         "html"
       ],
       "status": "live"
+    },
+    {
+      "id": "p271786",
+      "name": "Book Dream v2.1",
+      "category": "school",
+      "url": "https://buly.kr/5q9LVoF",
+      "desc": "오성중학교 도서 신청 시스템 - Book Dream은 오성중학교 학생과 교사가 도서를 검색하고 구입을 신청할 수 있는 웹 기반 도서 신청 시스템입니다. 알라딘 도서 검색 API를 연동하여 실시간 도서 정보를 조회하고, 학교 소장 도서와의 복본 여부를 자동으로 확인하며, 사서교사의 승인 프로세스를 통해 체계적인 도서 구입을 지원합니다.",
+      "tags": [
+        "Google Apps Script",
+        "Code.gs",
+        "html"
+      ],
+      "status": "live"
     }
   ]
 }
