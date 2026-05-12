@@ -487,7 +487,12 @@
       "category": "cat_mn53qvw9",
       "url": "https://buly.kr/9XNHbPY",
       "desc": "구글 계정 기반의 AI 수업 협업 플랫폼입니다. 학생들이 AI 도구(Claude, Gemini 등)를 활용한 수업에서 코드와 프롬프트를 공유하고, 서로 질문·답변하며, 과제를 제출하는 올인원 학습 커뮤니티입니다.",
-      "tags": [],
+      "tags": [
+        "Google Apps Script",
+        "Code.gs",
+        "index.html",
+        "Gemini API"
+      ],
       "status": "live"
     }
   ]
