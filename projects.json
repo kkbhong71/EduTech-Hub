@@ -494,6 +494,15 @@
         "Gemini API"
       ],
       "status": "live"
+    },
+    {
+      "id": "p659029",
+      "name": "Suno AI 음악 수익화 완전 가이드",
+      "category": "edu",
+      "url": "https://kkbhong71.github.io/emotional_sounds/",
+      "desc": "2026년 최신 정책 기반 — Suno 프롬프트 작성부터 YouTube·스트리밍·다중 수익화까지 초보자도 따라할 수 있는 올인원 웹앱",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
