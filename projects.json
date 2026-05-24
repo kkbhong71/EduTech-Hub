@@ -506,6 +506,15 @@
         "가이드"
       ],
       "status": "live"
+    },
+    {
+      "id": "p019574",
+      "name": "유튜브 뮤직비디오 제작 워크플로우",
+      "category": "edu",
+      "url": "https://kkbhong71.github.io/Music-Video-Workflow/",
+      "desc": "Suno AI × Gemini × Claude × ChatGPT × CapCut\n5개 도구를 조합한 최적화된 뮤직비디오 제작 파이프라인",
+      "tags": [],
+      "status": "live"
     }
   ]
 }
