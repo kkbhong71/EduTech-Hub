@@ -539,7 +539,7 @@
       "name": "ticket-press",
       "category": "school",
       "url": "https://kkbhong71.github.io/ticket-press/",
-      "desc": "대회 기념품·수업 보상용 일련번호 교환권 제작, A4 4매 인쇄",
+      "desc": "대회 기념품·수업 보상 교환권 제작. 일련번호 자동 발행,\n용도 7종·테마 6종, 명단 이름 인쇄, 교환 대장 CSV, A4 4매",
       "tags": [
         "GitHub Pages · 단일 HTML"
       ],
