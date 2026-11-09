@@ -562,7 +562,7 @@
     },
     {
       "id": "p225576",
-      "name": "클로드 한글(HWP) 문서 키트",
+      "name": "Claude 한글(HWP) 문서 키트",
       "category": "school",
       "url": "https://kkbhong71.github.io/claude-hwp-kit/",
       "desc": "Claude에게 말로 요청하면 학교 업무 문서를 내용 작성부터 꾸며진 한글(.hwp)·PDF 파일까지 자동으로 만들어 주는 초보자용 키트입니다.",
